@@ -4,5 +4,7 @@
   "installCommand": "",
   "buildCommand": "",
   "outputDirectory": ".",
-  "cleanUrls": false
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
